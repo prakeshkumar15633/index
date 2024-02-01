@@ -1,0 +1,10 @@
+body{
+    background-color: red;
+}
+img{
+    filter:grayscale(100%);
+    transition:filter 2s;
+}
+img,img:hover{
+    filter:grayscale(0%);
+}
